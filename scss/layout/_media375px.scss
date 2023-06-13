@@ -1,0 +1,35 @@
+@media (max-width: 375px) {
+    .div-centro h4 {
+        font-size: 1.5rem;
+
+    }
+
+    .bar-btn {
+        font-size: 2rem;
+    }
+
+    .secciones-li li a{
+        font-size: 1.2rem;
+    }
+
+    .reseña {
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+            "reseña-img"
+            "reseña-p";
+
+        img {
+            grid-area: reseña-img;
+            margin: 0 auto;
+            display: block;
+        }
+
+        p {
+            grid-area: reseña-p;
+            text-align: center;
+        }
+    }
+}

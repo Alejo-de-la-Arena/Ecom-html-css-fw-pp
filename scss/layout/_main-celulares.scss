@@ -1,0 +1,47 @@
+
+.celulares-inteligentes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40rem;
+    border-radius: 2rem;
+
+    .celulares {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.1rem;
+
+        .img-celular1,
+        .img-celular2,
+        .img-celular3 {
+            width: 20rem;
+            height: 20rem;
+            border: solid black 0.2rem;
+            border-radius: 2rem;
+            margin-left: 3rem;
+            margin-top: 2rem;
+        }
+    }
+}
+
+.celulares-inteligentes2 {
+    display: flex;
+    flex-direction: row;
+    height: 40rem;
+    border-radius: 2rem;
+    margin-bottom: 0.2rem;
+    justify-content: center;
+
+        .img-celular4,
+        .img-celular5,
+        .img-celular6{
+            width: 20rem;
+            height: 20rem;
+            border: solid black 0.2rem;
+            border-radius: 2rem;
+            margin-left: 3rem;
+            margin-top: 2rem;
+        }
+}
+

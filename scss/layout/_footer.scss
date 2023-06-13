@@ -1,0 +1,105 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "footer-info footer-subscripcion footer-politicas"
+        "footer-credit footer-certificacion .";
+    justify-items: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 1rem;
+
+    .whatsapp-logo {
+        position: fixed;
+        bottom: 1rem;
+        right: 0.5rem;
+        width: 3rem;
+        height: 3rem;
+        color: white;
+        border: white 0.2rem;
+    }
+
+    .instagram-logo {
+        position: fixed;
+        bottom: 1rem;
+        right: 4.5rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .gmail-logo {
+        position: fixed;
+        bottom: 1rem;
+        right: 8.5rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+        .footer-info {
+            grid-area: footer-info;
+            h4 {
+                margin: 0;
+                font-size: 3rem;
+                text-align: center;
+            }
+            p {
+                text-align: center;
+                font-size: 1.1rem;
+            }
+        }
+    
+        .footer-credit {
+            text-align: right;
+            font-size: 1rem;
+            grid-area: footer-credit;
+        }
+
+        .footer-subscripcion {
+            grid-area: footer-subscripcion;
+
+            h4 {
+                font-size: 1.2rem;
+                justify-self: center;
+            }
+        }
+
+        .footer-politicas {
+            text-decoration: underline #38B6FF;
+            color: white;
+            grid-area: footer-politicas;
+
+            h4 {
+                font-size: 1.3rem;
+                text-align: center;
+            }
+
+            ul {
+                list-style: none;
+
+                li a {
+                    text-decoration: underline #38B6FF;
+                    color: white;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        .footer-certificacion {
+            grid-area: footer-certificacion;
+
+            h4 {
+                font-size: 1.3rem;
+            }
+
+            ul {
+                list-style: none;
+
+                img {
+                    height: 8rem;
+                    width: 8rem;
+                    border-radius: 5rem;
+                }
+            }
+        }
+    }

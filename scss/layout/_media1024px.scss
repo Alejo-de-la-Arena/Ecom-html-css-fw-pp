@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+    .nav-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    li {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        
+    a {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        }
+    }
+}
+
+    }
+    .logo-smartshop {
+        width: 10rem;
+        height: 10rem;
+        margin-left: 1rem;
+    }
+    .reseña {
+        img {
+            height: 10rem;
+        }
+        p {
+            font-size: 2rem;
+            text-align: center;
+        }
+    }

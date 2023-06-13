@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        font-size: 0.7rem;
+        justify-content: center;
+        align-items: center;
+
+        li a {
+            font-size: 1rem;
+        }
+    }
+
+    .flex-img {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-celular,
+    .img-reloj,
+    .img-auricular {
+        width: 15rem;
+        height: 15rem;
+        display: flex;
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,100 @@
+@media (max-width: 425px) {
+
+    .div-centro{
+        font-size: 1.5rem;
+    }
+
+    .seccion-img-li{
+        height: 50rem;
+    .seccion-imagenes{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        flex-direction: column;
+    .img-celular,
+    .img-reloj,
+    .img-auricular {
+        margin: 0 auto;
+        width: 80%;
+        height: 12rem;
+        width: 12rem;
+        }
+    }
+
+    .secciones-li {
+        display: flex;
+        align-items: center;
+        text-decoration: underline;
+        font-size: 1.5rem;
+        padding-top: 2rem;
+        }
+    
+}
+}
+.reseña {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "reseña-img"
+        "reseña-p";
+
+    img {
+        grid-area: reseña-img;
+        margin: 0 auto;
+        display: block;
+    }
+
+    p {
+        grid-area: reseña-p;
+        text-align: center;
+    }
+}
+
+    .productos-destacados {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    
+    .footer-subscripcion,
+    .footer-politicas,
+    .footer-certificacion {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        a{
+            color: white;
+            text-decoration: underline white;
+        }
+
+        img{
+            height: 8rem;
+            width: 8rem;
+            border-radius: 50%;
+        }
+    }
+    
+
+    .footer-credit p {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    
+    .footer-info h4 {
+        text-align: center;
+        font-size: 1.5rem;
+    }

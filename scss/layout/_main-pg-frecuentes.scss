@@ -1,0 +1,25 @@
+.titulo {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.preguntasyrespuestas {
+    color: white;
+}
+
+.preguntasyrespuestas h4 {
+    font-size: 2rem;
+}
+
+.preguntasyrespuestas p {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.barra-pregunta {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
