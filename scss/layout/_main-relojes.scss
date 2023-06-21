@@ -4,92 +4,38 @@
     justify-content: center;
     height: 40rem;
     border-radius: 2rem;
-
-    .relojes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0.1rem;
-
-        .img-reloj1 {
-            width: 20rem;
-            height: 20rem;
-            border: solid black 0.2rem;
-            border-radius: 2rem;
-            margin-left: 3rem;
-            margin-top: 2rem;
-        }
-
-        .img-reloj2 {
-            width: 20rem;
-            height: 20rem;
-            border: solid black 0.2rem;
-            border-radius: 2rem;
-            margin-left: 3rem;
-            margin-top: 2rem;
-        }
-
-        .img-reloj3 {
-            width: 20rem;
-            height: 20rem;
-            border: solid black 0.2rem;
-            border-radius: 2rem;
-            margin-left: 3rem;
-            margin-top: 2rem;
-        }
-
-        .img-reloj4 {
-            width: 20rem;
-            height: 20rem;
-            border: solid black 0.2rem;
-            border-radius: 2rem;
-            margin-left: 3rem;
-            margin-top: 2rem;
-        }
-
-        .img-reloj5 {
-            width: 20rem;
-            height: 20rem;
-            border: solid black 0.2rem;
-            border-radius: 2rem;
-            margin-left: 3rem;
-            margin-top: 2rem;
-        }
-
-        .img-reloj6 {
-            width: 20rem;
-            height: 20rem;
-            border: solid black 0.2rem;
-            border-radius: 2rem;
-            margin-left: 3rem;
-            margin-top: 2rem;
-        }
-
-        .img-reloj7 {
-            width: 20rem;
-            height: 20rem;
-            border: solid black 0.2rem;
-            border-radius: 2rem;
-            margin-left: 3rem;
-            margin-top: 2rem;
-        }
-
-        .img-reloj8 {
-            width: 20rem;
-            height: 20rem;
-            border: solid black 0.2rem;
-            border-radius: 2rem;
-            margin-left: 3rem;
-            margin-top: 2rem;
-        }
-
-        .img-reloj9 {
-            width: 20rem;
-            height: 20rem;
-            border: solid black 0.2rem;
-            border-radius: 2rem;
-            margin-left: 3rem;
-            margin-top: 2rem;
-        }
     }
-}
+    
+    .relojes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.1rem;
+    margin-right: 2rem;
+    }
+    
+    .img-reloj1,
+    .img-reloj2,
+    .img-reloj3,
+    .img-reloj4,
+    .img-reloj5,
+    .img-reloj6,
+    .img-reloj7,
+    .img-reloj8,
+    .img-reloj9 {
+        @extend img-producto;
+    }
+    
+    .informacion {
+    color: white;
+    text-align: center;
+    }
+    
+    .informacion h3 {
+    font-size: 1.5rem;
+    }
+    
+    .informacion .precio-oferta,
+    .informacion .precio-original {
+    font-size: 1rem;
+    }

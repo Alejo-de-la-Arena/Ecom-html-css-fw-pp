@@ -30,7 +30,7 @@
         }
     
 }
-}
+
 .reseña {
     height: auto;
     display: grid;
@@ -98,3 +98,17 @@
         text-align: center;
         font-size: 1.5rem;
     }
+
+    .relojes-inteligentes{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .auriculares-c, 
+    .celulares-inteligentes, 
+    .celulares-inteligentes2 {
+        @include responsive-column;
+    }
+}
+

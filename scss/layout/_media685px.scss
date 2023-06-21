@@ -1,0 +1,27 @@
+@media (max-width: 685px) 
+{ 
+.seccion-img-li{
+    height: 50rem;
+.seccion-imagenes{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    flex-direction: column;
+.img-celular,
+.img-reloj,
+.img-auricular {
+    margin: 0 auto;
+    width: 80%;
+    height: 12rem;
+    width: 12rem;
+    }
+}
+.secciones-li {
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    }
+}
+}

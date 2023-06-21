@@ -160,17 +160,6 @@ section {
     flex-wrap: wrap;
 }
 
-
-.comprar-ahora {
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 6px 10px;
-    cursor: pointer;
-    border: solid white 0.1rem;
-}
-
 h2 {
     text-align: center;
     color: white;
@@ -181,7 +170,7 @@ h2 {
 .productos-destacados {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 40rem;
     border-radius: 2rem;
     margin-bottom: 0.2rem;
@@ -195,6 +184,20 @@ h2 {
             margin-top: 1rem;
             text-align: center;
             color: white;
+
+            .ver-producto{
+                background-color: #fff;
+                box-shadow: 0.5rem;
+                text-align: center;
+                height: auto;
+                font-size: 1.2rem;
+                
+                a{
+                    color: black;
+                    padding: 0;
+                }
+            }
+
             h3{
                 font-size: 2rem;
             }
@@ -217,3 +220,4 @@ h2 {
 h4 {
     color: white;
 }
+
