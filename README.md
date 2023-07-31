@@ -1,7 +1,7 @@
 
 # Repositorio GitHub de mi proyecto final.
 ###  Creado por Alejo de la Arena
-#### Este respositorio contiene todo lo que aprendí e implemente en mi proyecto, durante el curso de Coderhouse; desarrollo web.
+#### Este respositorio contiene las siguientes tecnologías:
 - HTML5
 - CSS3
 - SEO
